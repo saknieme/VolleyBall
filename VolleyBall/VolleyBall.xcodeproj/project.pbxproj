@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		17E673A81F761B7A00F0DBD4 /* VolleyBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VolleyBall.h; path = inc/VolleyBall.h; sourceTree = "<group>"; };
+		17E673A91F761BBD00F0DBD4 /* VolleyBall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = VolleyBall.cpp; path = src/VolleyBall.cpp; sourceTree = "<group>"; };
+		17E673AA1F761C4800F0DBD4 /* Roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Roster.cpp; path = src/Roster.cpp; sourceTree = "<group>"; };
+		17E673AB1F761C4800F0DBD4 /* Roster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Roster.hpp; path = src/Roster.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		17E673A11F761B2500F0DBD4 = {
+			isa = PBXGroup;
+			children = (
+				17E673AA1F761C4800F0DBD4 /* Roster.cpp */,
+				17E673AB1F761C4800F0DBD4 /* Roster.hpp */,
+				17E673A91F761BBD00F0DBD4 /* VolleyBall.cpp */,
+				17E673A81F761B7A00F0DBD4 /* VolleyBall.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		17E673A21F761B2500F0DBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 17E673A51F761B2500F0DBD4 /* Build configuration list for PBXProject "VolleyBall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E673A11F761B2500F0DBD4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		17E673A61F761B2500F0DBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		17E673A71F761B2500F0DBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E673A51F761B2500F0DBD4 /* Build configuration list for PBXProject "VolleyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E673A61F761B2500F0DBD4 /* Debug */,
+				17E673A71F761B2500F0DBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E673A21F761B2500F0DBD4 /* Project object */;
+}
